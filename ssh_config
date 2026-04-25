@@ -1,0 +1,31 @@
+# -- "Ananda.org (New)" Server in Cloudways --------
+## -- Applications: ananda.org, staging.ananda.org, vayudev.ananda.org
+Host ananda-new-server
+    HostName 45.63.93.73
+    User master_bsmhtrxtar
+    IdentityFile ~/.ssh/id_rsa
+
+# -- "Small Sites" Server in Cloudways --------
+## -- Applications: expandinglight.org, anandafarsi.org, nayaswami.org, www.ananda.center (Ananda centers), www.anandastock.org
+Host ananda-small-sites-server
+    HostName 159.65.64.164
+    User master_xvvmkqwmyn
+    IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
+Host ananda-org-prod
+    HostName 45.63.93.73
+    User marcitaaks
+    IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda.org STAGING Site in Cloudways (staging.ananda.org) ------------------
+Host ananda-org-staging
+    HostName 45.63.93.73
+    User michistaging
+    IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Centers PRODUCTION Site in Cloudways (www.ananda.center) ------------------
+Host ananda-centers-prod
+    HostName 159.65.64.164
+    User centersahoy
+    IdentityFile ~/.ssh/id_rsa
