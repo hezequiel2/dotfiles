@@ -6,13 +6,13 @@ Host ananda-new-server
     IdentityFile ~/.ssh/id_rsa
 
 # -- "Small Sites" (Ananda Worldwide's) Server in Cloudways --------
-## -- Applications: expandinglight.org, anandafarsi.org, nayaswami.org, www.ananda.center (Ananda centers), www.anandastock.org
+## -- Applications: expandinglight.org, anandafarsi.org, nayaswami.org, www.ananda.center (Ananda centers), www.anandastock.org, email.shareananda.org
 Host ananda-small-sites-server
     HostName 159.65.64.164
     User master_xvvmkqwmyn
     IdentityFile ~/.ssh/id_rsa
 
-# -- "Holy Sea" (Dana's) Server in Cloudways --------
+# -- "Holy Sea" (Dana's) Server in Cl   oudways --------
 ## -- Applications: danalynneandersen.con, awakeningartsacademy.com
 Host dana-server
     HostName 161.35.130.229
@@ -35,6 +35,12 @@ Host ananda-org-staging
 Host ananda-centers-prod
     HostName 159.65.64.164
     User centersahoy
+    IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Chimp PRODUCTION Site in Cloudways (email.shareananda.org) ------------------
+Host ananda-chimp-prod
+    HostName 159.65.64.164
+    User vayu
     IdentityFile ~/.ssh/id_rsa
 
 # -- Awakening Arts Academy PRODUCTION Site in Cloudways (awakeningartsacademy.com) ------------------
