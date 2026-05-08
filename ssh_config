@@ -31,6 +31,12 @@ Host ananda-org-staging
     User michistaging
     IdentityFile ~/.ssh/id_rsa
 
+# -- Ananda.org DEV Site in Cloudways (vayudev.ananda.org) ------------------
+Host ananda-org-vayudev
+    HostName 45.63.93.73
+    User vayucitolito
+    IdentityFile ~/.ssh/id_rsa
+
 # -- Ananda Centers PRODUCTION Site in Cloudways (www.ananda.center) ------------------
 Host ananda-centers-prod
     HostName 159.65.64.164
