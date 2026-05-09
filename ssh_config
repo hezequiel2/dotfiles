@@ -54,3 +54,9 @@ Host awakening-arts-academy-prod
     HostName 161.35.130.229
     User awakeningarts
     IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Europe PRODUCTION Site in Cloudways (anandaeurope.org) ------------------
+Host ananda-europe-prod
+    HostName 161.35.80.224
+    User sanghaeurope
+    IdentityFile ~/.ssh/id_rsa
