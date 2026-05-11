@@ -60,3 +60,9 @@ Host ananda-europe-prod
     HostName 161.35.80.224
     User sanghaeurope
     IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Europe STAGING Site in Cloudways (staging.anandaeurope.org) ------------------
+Host ananda-europe-staging
+    HostName 161.35.80.224
+    User vayueuropestaging
+    IdentityFile ~/.ssh/id_rsa
