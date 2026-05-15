@@ -66,3 +66,9 @@ Host ananda-europe-staging
     HostName 161.35.80.224
     User vayueuropestaging
     IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Español PRODUCTION Site in Cloudways (anandaespanol.org) ------------------
+Host ananda-espanol-prod
+    HostName 167.71.74.172
+    User vayuspanish
+    IdentityFile ~/.ssh/id_rsa
