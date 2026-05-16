@@ -72,3 +72,9 @@ Host ananda-espanol-prod
     HostName 167.71.74.172
     User vayuspanish
     IdentityFile ~/.ssh/id_rsa
+
+# -- Ananda Library PRODUCTION Site in Cloudways (anandalibrary.org) ------------------
+Host ananda-library-prod
+    HostName 164.92.102.81
+    User library
+    IdentityFile ~/.ssh/id_rsa
