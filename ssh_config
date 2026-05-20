@@ -78,3 +78,17 @@ Host ananda-library-prod
     HostName 164.92.102.81
     User library
     IdentityFile ~/.ssh/id_rsa
+
+
+# -- Meditation Retreat PRODUCTION Site in Cloudways (meditationretreat.org) ------------------
+Host ananda-medretreat-prod
+    HostName 146.190.173.73
+    User medretreat
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Meditation Retreat STAGING Site in Cloudways (staging.meditationretreat.org) ------------------
+Host ananda-medretreat-staging
+    HostName 146.190.173.73
+    User stagingmedret
+    IdentityFile ~/.ssh/id_rsa
