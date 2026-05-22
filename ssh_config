@@ -1,12 +1,16 @@
 # -- "Ananda.org (New)" (Ananda Worldwide's) Server in Cloudways --------
 ## -- Applications: ananda.org, staging.ananda.org, vayudev.ananda.org
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 734274
 Host ananda-new-server
     HostName 45.63.93.73
     User master_bsmhtrxtar
     IdentityFile ~/.ssh/id_rsa
 
 # -- "Small Sites" (Ananda Worldwide's) Server in Cloudways --------
-## -- Applications: expandinglight.org, anandafarsi.org, nayaswami.org, www.ananda.center (Ananda centers), www.anandastock.org, email.shareananda.org
+## -- Applications: expandinglight.org, anandafarsi.org, nayaswami.org, www.ananda.center (Ananda centers), www.anandastock.org
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 279418
 Host ananda-small-sites-server
     HostName 159.65.64.164
     User master_xvvmkqwmyn
@@ -20,33 +24,39 @@ Host dana-server
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 734274
+# cloudways-app-id: 2457154
 Host ananda-org-prod
     HostName 45.63.93.73
     User marcitaaks
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda.org STAGING Site in Cloudways (staging.ananda.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 734274
+# cloudways-app-id: 2457155
 Host ananda-org-staging
     HostName 45.63.93.73
     User michistaging
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda.org DEV Site in Cloudways (vayudev.ananda.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 734274
+# cloudways-app-id: 3441618
 Host ananda-org-vayudev
     HostName 45.63.93.73
     User vayucitolito
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda Centers PRODUCTION Site in Cloudways (www.ananda.center) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 279418
+# cloudways-app-id: 2103573
 Host ananda-centers-prod
     HostName 159.65.64.164
     User centersahoy
-    IdentityFile ~/.ssh/id_rsa
-
-# -- Ananda Chimp PRODUCTION Site in Cloudways (email.shareananda.org) ------------------
-Host ananda-chimp-prod
-    HostName 159.65.64.164
-    User vayu
     IdentityFile ~/.ssh/id_rsa
 
 # -- Awakening Arts Academy PRODUCTION Site in Cloudways (awakeningartsacademy.com) ------------------
@@ -74,6 +84,9 @@ Host ananda-espanol-prod
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda Library PRODUCTION Site in Cloudways (anandalibrary.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 802402
+# cloudways-app-id: 2773206
 Host ananda-library-prod
     HostName 164.92.102.81
     User library
@@ -81,6 +94,9 @@ Host ananda-library-prod
 
 
 # -- Meditation Retreat PRODUCTION Site in Cloudways (meditationretreat.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 5961607
 Host ananda-medretreat-prod
     HostName 146.190.173.73
     User medretreat
@@ -88,6 +104,9 @@ Host ananda-medretreat-prod
 
 
 # -- Meditation Retreat STAGING Site in Cloudways (staging.meditationretreat.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 5961654
 Host ananda-medretreat-staging
     HostName 146.190.173.73
     User stagingmedret
