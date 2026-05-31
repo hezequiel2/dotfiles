@@ -16,11 +16,28 @@ Host ananda-small-sites-server
     User master_xvvmkqwmyn
     IdentityFile ~/.ssh/id_rsa
 
-# -- "Holy Sea" (Dana's) Server in Cl   oudways --------
-## -- Applications: danalynneandersen.con, awakeningartsacademy.com
+# -- "Guru Vault" (Ananda Worldwide's) Server in Cloudways --------
+## -- Applications: meditationretreat.org, srw.ananda.org, irr.ananda.org, swami100.ananda.org, crystalhermitage.org, sevakaorder.org, www.treasuresalongthepath.com
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+Host ananda-guru-vault-server
+    HostName 146.190.173.73
+    User master_mzyxndeshz
+    IdentityFile ~/.ssh/id_rsa
+
+# -- "Holy Sea" (Dana's) Server in Cloudways --------
+## -- Applications: danalynneandersen.com, awakeningartsacademy.com
 Host dana-server
     HostName 161.35.130.229
     User master_jbgyyyuakr
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- "FJH SErver" (Michael Olivier's) Server in Cloudways --------
+## -- Applications: freejoehunt.com, freejoehunt.com STAGING
+Host free-joe-hunt-server
+    HostName 64.23.141.141
+    User master_ptbfgwkkxj
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
@@ -110,4 +127,24 @@ Host ananda-medretreat-prod
 Host ananda-medretreat-staging
     HostName 146.190.173.73
     User stagingmedret
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- SRW/IRR/Swami100 Remote Site PRODUCTION in Cloudways (srw.ananda.org OR irr.ananda.org OR swami100.ananda.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 4670929
+Host srw-irr-swami100-remote-prod
+    HostName 146.190.173.73
+    User vaitikaitis
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Free Joe Hunt PRODUCTION in Cloudways (freejoehunt.com) ------------------
+# cloudways-account: N/A
+# cloudways-server-id: 1188438
+# cloudways-app-id: 4182396
+Host free-joe-hunt-prod
+    HostName 64.23.141.141
+    User freejoehunt
     IdentityFile ~/.ssh/id_rsa
