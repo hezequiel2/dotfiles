@@ -148,3 +148,13 @@ Host free-joe-hunt-prod
     HostName 64.23.141.141
     User freejoehunt
     IdentityFile ~/.ssh/id_rsa
+
+
+# -- Ananda Music Library PRODUCTION in Cloudways (www.anandamusiclibrary.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 802402
+# cloudways-app-id: 2754280
+Host ananda-music-library-prod
+    HostName 164.92.102.81
+    User musiclibby
+    IdentityFile ~/.ssh/id_rsa
