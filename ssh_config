@@ -158,3 +158,13 @@ Host ananda-music-library-prod
     HostName 164.92.102.81
     User musiclibby
     IdentityFile ~/.ssh/id_rsa
+
+
+# -- Crystal Hermitage PRODUCTION in Cloudways (crystalhermitage.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 4569235
+Host crystal-hermitage-prod
+    HostName 146.190.173.73
+    User hermitage
+    IdentityFile ~/.ssh/id_rsa
