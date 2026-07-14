@@ -138,7 +138,7 @@ Host ananda-medretreat-staging
 # cloudways-app-id: 6550290
 Host ananda-events-hub-prod
     HostName 146.190.173.73
-    User ywvucwftmw
+    User vayucuto
     IdentityFile ~/.ssh/id_rsa
 
 
