@@ -132,6 +132,15 @@ Host ananda-medretreat-staging
     User stagingmedret
     IdentityFile ~/.ssh/id_rsa
 
+# -- Ananda Events Hub PRODUCTION Site in Cloudways (events.ananda.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 6550290
+Host ananda-events-hub-prod
+    HostName 146.190.173.73
+    User ywvucwftmw
+    IdentityFile ~/.ssh/id_rsa
+
 
 # -- SRW/IRR/Swami100 Remote Site PRODUCTION in Cloudways (srw.ananda.org OR irr.ananda.org OR swami100.ananda.org) ------------------
 # cloudways-account: ananda-worldwide
