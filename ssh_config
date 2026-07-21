@@ -141,6 +141,15 @@ Host ananda-events-hub-dev
     User vayucuto
     IdentityFile ~/.ssh/id_rsa
 
+# -- Ananda Events Hub STAGING Site in Cloudways (https://wordpress-1195483-6568538.cloudwaysapps.com/) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 6568538
+Host ananda-events-hub-staging
+    HostName 146.190.173.73
+    User twobillion
+    IdentityFile ~/.ssh/id_rsa
+
 
 # -- SRW/IRR/Swami100 Remote Site PRODUCTION in Cloudways (srw.ananda.org OR irr.ananda.org OR swami100.ananda.org) ------------------
 # cloudways-account: ananda-worldwide
