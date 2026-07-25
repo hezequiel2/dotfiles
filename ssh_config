@@ -189,3 +189,21 @@ Host crystal-hermitage-prod
     HostName 146.190.173.73
     User hermitage
     IdentityFile ~/.ssh/id_rsa
+
+
+# -- Ananda India (Hostinger SHARED account) — SERVER scope, PRODUCTION-class ------------------
+## -- One SSH user reaches 10 INDEPENDENT WordPress installs. Treat as production-class.
+## -- Site path pattern: ~/domains/<domain>/public_html   (wp-cli at /usr/local/bin/wp)
+## -- Repo `ananda-india` (wp-content) maps to: ~/domains/anandaindia.org/public_html
+## -- anandaindia.org is MULTISITE, subdirectory install: / , /online/ , /treasures/
+## -- Other installs: anandabangalore.org, anandachennai.org, anandacoimbatore.org,
+##    anandahyderabad.org, anandaindiaonline.org, anandapune.org, edforlifeindia.org,
+##    livingwisely.in, yoganandatrust.org
+# hostinger-account: ananda-india
+# hostinger-plan: shared (hPanel)
+Host ananda-india-server
+    HostName 187.127.168.126
+    Port 65002
+    User u872325688
+    IdentityFile ~/.ssh/hostinger_ananda_ed25519
+    IdentitiesOnly yes
