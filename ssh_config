@@ -32,12 +32,20 @@ Host dana-server
     User master_jbgyyyuakr
     IdentityFile ~/.ssh/id_rsa
 
-
 # -- "FJH SErver" (Michael Olivier's) Server in Cloudways --------
 ## -- Applications: freejoehunt.com, freejoehunt.com STAGING
 Host free-joe-hunt-server
     HostName 64.23.141.141
     User master_ptbfgwkkxj
+    IdentityFile ~/.ssh/id_rsa
+
+# -- "Education for Life (EFL) Server" Server in Cloudways --------
+## -- Applications: edforlife.org
+# cloudways-account: education-for-life
+# cloudways-server-id: 1532195
+Host efl-server
+    HostName 45.79.220.212
+    User master_eyanmuwrtt
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
@@ -92,6 +100,9 @@ Host ananda-europe-prod
     IdentityFile ~/.ssh/id_rsa
 
 # -- Ananda Europe STAGING Site in Cloudways (staging.anandaeurope.org) ------------------
+# cloudways-account: ananda-europe
+# cloudways-server-id: 1259260
+# cloudways-app-id: 6308048
 Host ananda-europe-staging
     HostName 161.35.80.224
     User vayueuropestaging
@@ -207,3 +218,13 @@ Host ananda-india-server
     User u872325688
     IdentityFile ~/.ssh/hostinger_ananda_ed25519
     IdentitiesOnly yes
+
+
+# -- Education for Life (EFL) PRODUCTION in Cloudways (edforlife.org) ------------------
+# cloudways-account: education-for-life
+# cloudways-server-id: 1532195
+# cloudways-app-id: 5908603
+Host education-for-life-prod
+    HostName 45.79.220.212
+    User sovevsovev
+    IdentityFile ~/.ssh/id_rsa
