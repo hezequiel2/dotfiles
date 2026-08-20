@@ -48,6 +48,15 @@ Host efl-server
     User master_eyanmuwrtt
     IdentityFile ~/.ssh/id_rsa
 
+# -- "Guru Kriya" Server in Cloudways --------
+## -- Applications: anandasacramento.org
+# cloudways-account: ananda-sacramento
+# cloudways-server-id: 1533415
+Host ananda-sacramento-server
+    HostName 164.92.67.119
+    User master_kjfcjsgwez
+    IdentityFile ~/.ssh/id_rsa
+
 # -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
 # cloudways-account: ananda-worldwide
 # cloudways-server-id: 734274
@@ -227,4 +236,14 @@ Host ananda-india-server
 Host education-for-life-prod
     HostName 45.79.220.212
     User sovevsovev
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Ananda Sacramento (anandasacramento.org) ------------------
+# cloudways-account: ananda-sacramento
+# cloudways-server-id: 1533415
+# cloudways-app-id: 5914922
+Host ananda-sacramento-prod
+    HostName 164.92.67.119
+    User sacramento
     IdentityFile ~/.ssh/id_rsa
