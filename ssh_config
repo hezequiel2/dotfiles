@@ -239,11 +239,21 @@ Host education-for-life-prod
     IdentityFile ~/.ssh/id_rsa
 
 
-# -- Ananda Sacramento (anandasacramento.org) ------------------
+# -- Ananda Sacramento PRODUCTION (anandasacramento.org) ------------------
 # cloudways-account: ananda-sacramento
 # cloudways-server-id: 1533415
 # cloudways-app-id: 5914922
 Host ananda-sacramento-prod
+    HostName 164.92.67.119
+    User sacramento
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Ananda Sacramento STAGING (wordpress-1533415-6627392.cloudwaysapps.com) ------------------
+# cloudways-account: ananda-sacramento-staging
+# cloudways-server-id: 1533415
+# cloudways-app-id: 6627392
+Host ananda-sacramento-staging
     HostName 164.92.67.119
     User sacramento
     IdentityFile ~/.ssh/id_rsa
