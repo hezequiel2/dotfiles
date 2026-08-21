@@ -255,5 +255,5 @@ Host ananda-sacramento-prod
 # cloudways-app-id: 6627392
 Host ananda-sacramento-staging
     HostName 164.92.67.119
-    User sacramento
+    User sacramento-staging
     IdentityFile ~/.ssh/id_rsa
