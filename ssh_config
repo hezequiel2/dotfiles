@@ -272,7 +272,7 @@ Host ananda-sacramento-staging
 # cloudways-account: hezequiel
 # cloudways-server-id: 434129
 # cloudways-app-id: 6640522
-Host vayu-today-taskboard
+Host vayu-today-taskboard-dev
     HostName 161.35.168.210
     User vayu-taskboard
     IdentityFile ~/.ssh/id_rsa
