@@ -57,6 +57,15 @@ Host ananda-sacramento-server
     User master_kjfcjsgwez
     IdentityFile ~/.ssh/id_rsa
 
+# -- "Aquilonia" Server (Vayu's Personal Server) in Cloudways --------
+## -- Applications: dragontales.hezequiel.com, musiclifejoy.com, joyfulaspiration.com, letmerememberthis.com, recetasabuelita.com, today.hezequiel.com
+# cloudways-account: hezequiel
+# cloudways-server-id: 434129
+Host aquilonia-server
+    HostName 161.35.168.210
+    User master_qkrywjutcv
+    IdentityFile ~/.ssh/id_rsa
+
 # -- Ananda.org PRODUCTION Site in Cloudways (ananda.org) ------------------
 # cloudways-account: ananda-worldwide
 # cloudways-server-id: 734274
