@@ -259,10 +259,20 @@ Host ananda-sacramento-prod
 
 
 # -- Ananda Sacramento STAGING (wordpress-1533415-6627392.cloudwaysapps.com) ------------------
-# cloudways-account: ananda-sacramento-staging
+# cloudways-account: ananda-sacramento
 # cloudways-server-id: 1533415
 # cloudways-app-id: 6627392
 Host ananda-sacramento-staging
     HostName 164.92.67.119
     User sacramento-staging
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Vayu's Today Taskboard DEV (phpstack-434129-6640522.cloudwaysapps.com) ------------------
+# cloudways-account: hezequiel
+# cloudways-server-id: 434129
+# cloudways-app-id: 6640522
+Host vayu-today-taskboard
+    HostName 161.35.168.210
+    User vayu-taskboard
     IdentityFile ~/.ssh/id_rsa
