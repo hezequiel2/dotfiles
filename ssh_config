@@ -268,11 +268,11 @@ Host ananda-sacramento-staging
     IdentityFile ~/.ssh/id_rsa
 
 
-# -- Vayu's Today Taskboard DEV (phpstack-434129-6640522.cloudwaysapps.com) ------------------
+# -- Vayu's Today Taskboard PRODUCTION (phpstack-434129-6640522.cloudwaysapps.com) -----------
 # cloudways-account: hezequiel
 # cloudways-server-id: 434129
 # cloudways-app-id: 6640522
-Host vayu-today-taskboard-dev
+Host vayu-today-taskboard-prod
     HostName 161.35.168.210
     User vayu-taskboard
     IdentityFile ~/.ssh/id_rsa
