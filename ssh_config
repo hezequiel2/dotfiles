@@ -278,11 +278,11 @@ Host vayu-today-taskboard-prod
     IdentityFile ~/.ssh/id_rsa
 
 
-# -- Kirtan Calendar DEV (kirtans.thecalloftheheart.com) -----------
+# -- Kirtan Calendar PRODUCTION Site in Cloudways (kirtans.thecalloftheheart.com) ------------------
 # cloudways-account: hezequiel
 # cloudways-server-id: 434129
 # cloudways-app-id: 6643287
-Host village-kirtan-calendar-dev
+Host village-kirtan-calendar-prod
     HostName 161.35.168.210
     User kirtan-calendar
     IdentityFile ~/.ssh/id_rsa
