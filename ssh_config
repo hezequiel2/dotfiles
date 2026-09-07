@@ -17,7 +17,7 @@ Host ananda-small-sites-server
     IdentityFile ~/.ssh/id_rsa
 
 # -- "Guru Vault" (Ananda Worldwide's) Server in Cloudways --------
-## -- Applications: meditationretreat.org, srw.ananda.org, irr.ananda.org, swami100.ananda.org, crystalhermitage.org, sevakaorder.org, www.treasuresalongthepath.com
+## -- Applications: meditationretreat.org, mealreports.expandinglight.org, srw.ananda.org, irr.ananda.org, swami100.ananda.org, crystalhermitage.org, sevakaorder.org, www.treasuresalongthepath.com
 # cloudways-account: ananda-worldwide
 # cloudways-server-id: 1195483
 Host ananda-guru-vault-server
@@ -149,6 +149,16 @@ Host ananda-library-prod
 Host ananda-medretreat-prod
     HostName 146.190.173.73
     User medretreat
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Expanding Light Meal Reports DEV Site in Cloudways (mealreports.expandinglight.org) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 6658991
+Host el-meal-reports-dev
+    HostName 146.190.173.73
+    User mealreports
     IdentityFile ~/.ssh/id_rsa
 
 
@@ -286,3 +296,26 @@ Host village-kirtan-calendar-prod
     HostName 161.35.168.210
     User kirtan-calendar
     IdentityFile ~/.ssh/id_rsa
+
+
+# -- Kirtan Calendar STAGING Site in Cloudways (kirtans-staging.thecalloftheheart.com) ------------------
+# cloudways-account: hezequiel
+# cloudways-server-id: 434129
+# cloudways-app-id: 6656750
+Host village-kirtan-calendar-staging
+    HostName 161.35.168.210
+    User kirtansis
+    IdentityFile ~/.ssh/id_rsa
+
+
+# -- Ananda Ahmedabad (Hostinger SHARED account) — SERVER scope, PRODUCTION-class ------------------
+## -- Site path: ~/domains/anandaahmedabad.org/public_html
+## -- Separate Hostinger plan from `ananda-india-server` (different u-number, different domain set)
+# hostinger-account: ananda-ahmedabad
+# hostinger-plan: shared (hPanel)
+Host ananda-ahmedabad-server
+    HostName 194.238.20.61
+    Port 65002
+    User u557611440
+    IdentityFile ~/.ssh/hostinger_ananda_ed25519
+    IdentitiesOnly yes
