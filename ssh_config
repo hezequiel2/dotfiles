@@ -319,3 +319,13 @@ Host ananda-ahmedabad-server
     User u557611440
     IdentityFile ~/.ssh/hostinger_ananda_ed25519
     IdentitiesOnly yes
+
+
+# -- Treasures Along the Path PRODUCTION Site in Cloudways (www.treasuresalongthepath.com) ------------------
+# cloudways-account: ananda-worldwide
+# cloudways-server-id: 1195483
+# cloudways-app-id: 4214577
+Host treasures-prod
+    HostName 146.190.173.73
+    User treasures
+    IdentityFile ~/.ssh/id_rsa
