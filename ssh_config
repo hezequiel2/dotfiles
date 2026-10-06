@@ -106,7 +106,7 @@ Host ananda-org-staging
 # cloudways-account: ananda-worldwide
 # cloudways-server-id: 734274
 # cloudways-app-id: 3441618
-Host ananda-org-vayudev
+Host ananda-org-vayudev-dev
     HostName 45.63.93.73
     User vayucitolito
     IdentityFile ~/.ssh/id_rsa
